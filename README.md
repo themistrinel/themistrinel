@@ -1,9 +1,9 @@
 ## 👋 Olá, eu sou o João Vitor, estudante e desenvolvedor Full Stack
 
 <div align="center">
-  <a href="https://github.com/JohnDiniz">
-  <img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api?username=JohnDiniz&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=JohnDiniz&layout=compact&langs_count=7&theme=tokyonight"/>
+  <a href="https://github.com/themistrinel">
+  <img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api?username=themistrinel&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
+  <img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=themistrinel&layout=compact&langs_count=7&theme=tokyonight"/>
 </div>
 
 <div style="display: inline_block"><br>
