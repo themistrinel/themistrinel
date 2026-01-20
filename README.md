@@ -1,4 +1,5 @@
-## 👋 Olá, eu sou o João Vitor, estudante e desenvolvedor Full Stack
+## 👋 Hi, I'm João Vitor, Full Stack Developer
+
 
 <div align="center">
   <a href="https://github.com/themistrinel">
@@ -9,7 +10,7 @@
 <div style="display: inline_block"><br>
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=git,html,css,js,typescript,nodejs,postgres,react,golang,linux,neovim,vscode" />
+    <img src="https://skillicons.dev/icons?i=git,c,cpp,html,css,js,typescript,react,nodejs,postgres,golang,linux,neovim,vscode" />
   </a>
 </p>
 </div>
@@ -29,11 +30,26 @@
   />
 </picture>
 
-### Sobre Mim
 
-Sou um estudante dedicado na Driven Education, focado em se tornar um desenvolvedor Full Stack. Atualmente, estou aprendendo e trabalhando com tecnologias como Node.js, TypeScript, Prisma ORM, entre outras. Sou apaixonado por resolver problemas e criar soluções inovadoras.
+<div align="center">
+  <a href="https://www.youtube.com/@themistrinel" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=Youtube&logo=youtube&label=&color=FF0000&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="youtube logo"  />
+  </a>
+  <a href="https://www.instagram.com/themistrinel/" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="instagram logo"  />
+  </a>
+  <a href="https://x.com/themistrinel" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=themistrinel&logo=x&label=X&color=000000&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="x logo"  />
+  </a>
+  <a href="mailto:themistrinel@gmail.com">
+    <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="gmail logo"  />
+  </a>
+  <a href="https://www.linkedin.com/in/joaovitordinizmistrinel" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linkedin logo"  />
+  </a>
+</div>
 
-### Projetos de Destaque
 
-Um projeto significativo em meu perfil é o My Wallet, um aplicativo financeiro desenvolvido utilizando diversas tecnologias tanto no frontend quanto no backend.
+### About Me
 
+I am a Full Stack Developer currently focused on **Low Level development** and **Game Engines**. I am also a student at Driven Education, where I work with technologies like Node.js, TypeScript, and Prisma ORM. I'm passionate about solving complex problems and building high-performance solutions.
