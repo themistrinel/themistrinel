@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 28" width="100%" height="100%">
+  <defs>
+    <style>
+      .mono { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; }
+      .conn-label { font-size: 13.5px; fill: #c9d1d9; }
+      .conn-link { font-size: 13.5px; fill: #58a6ff; }
+      .icon-fill { fill: #8b949e; }
+      @media (prefers-color-scheme: light) {
+        .conn-label { fill: #24292f; }
+        .conn-link { fill: #0969da; }
+        .icon-fill { fill: #57606a; }
+      }
+    </style>
+  </defs>
+  <g class="mono" transform="translate(10, 4)">
+    <path d="M0 2a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm2-.5a.5.5 0 0 0-.5.5v.22l5.5 3.3 5.5-3.3V2a.5.5 0 0 0-.5-.5H2zm10.5 2.03L7.26 6.7a.5.5 0 0 1-.52 0L1.5 3.53V10a.5.5 0 0 0 .5.5h10a.5.5 0 0 0 .5-.5V3.53z" class="icon-fill" />
+    <text x="28" y="14" class="conn-label">email</text>
+    <text x="135" y="14" class="conn-link">themistrinel@gmail.com</text>
+  </g>
+</svg>
