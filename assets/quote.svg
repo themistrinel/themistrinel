@@ -5,6 +5,13 @@
       .quote-text { font-size: 14px; fill: #8b949e; }
       .vert-div { stroke: #21262d; stroke-width: 1; }
       .cursor-prompt { font-size: 14px; font-weight: 600; fill: #58a6ff; }
+
+      @keyframes blinkCursor {
+        0%, 49% { opacity: 1; }
+        50%, 100% { opacity: 0; }
+      }
+      .cursor-blink { animation: blinkCursor 1.05s infinite; }
+
       @media (prefers-color-scheme: light) {
         .quote-text { fill: #57606a; }
         .vert-div { stroke: #d0d7de; }
@@ -16,6 +23,6 @@
   <g class="mono" transform="translate(50, 15)">
     <text x="0" y="25" class="quote-text">“ Better tools,</text>
     <text x="20" y="48" class="quote-text">better systems. ”</text>
-    <text x="0" y="88" class="cursor-prompt">&gt;  _</text>
+    <text x="0" y="88" class="cursor-prompt">&gt;  <tspan class="cursor-blink">_</tspan></text>
   </g>
 </svg>
