@@ -1,41 +1,78 @@
-## 👋 Hi, I'm João Vitor, Full Stack Developer
-
-
 <div align="center">
-  <a href="https://github.com/themistrinel"><img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api?username=themistrinel&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/><img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=themistrinel&layout=compact&langs_count=7&theme=tokyonight"/></a>
+
+```text
+   __  __ _     _        _            _ 
+  |  \/  (_)___| |_ _ __(_)_ __   ___| |
+  | |\/| | / __| __| '__| | '_ \ / _ \ |
+  | |  | | \__ \ |_| |  | | | | |  __/ |
+  |_|  |_|_|___/\__|_|  |_|_| |_|\___|_|
+```
+
+### João Vitor Diniz Mistrinel
+
+**Systems & Game Engine Developer**
+
+`C / C++` &nbsp;·&nbsp; `Engine Architecture` &nbsp;·&nbsp; `Low-Level Engineering` &nbsp;·&nbsp; `Linux Environment`
+
+<br />
+
+[GitHub](https://github.com/themistrinel) &nbsp;·&nbsp; [LinkedIn](https://linkedin.com/in/joaovitordinizmistrinel) &nbsp;·&nbsp; [X / Twitter](https://x.com/themistrinel) &nbsp;·&nbsp; [YouTube](https://youtube.com/@themistrinel) &nbsp;·&nbsp; [Email](mailto:themistrinel@gmail.com)
+
 </div>
 
-<div style="display: inline_block"><br>
-<p align="center">
-  <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=git,c,cpp,html,css,js,typescript,react,nodejs,postgres,golang,linux,neovim,vscode" /></a>
-</p>
-</div>
+---
+
+### $ whoami
+
+Software developer focused on **systems programming**, **low-level architecture**, and **game engine development**. Committed to writing predictable, cache-friendly, and high-performance software with native toolchains.
+
+```text
+host         :: linux-x86_64
+core_focus   :: game engines, memory management, native tooling
+languages    :: C (C23), C++ (C++20), Go, TypeScript
+environment  :: Neovim, Make / CMake, Git, GDB / LLDB
+```
+
+---
+
+### $ toolchain --list
+
+| Category | Technologies & Tools |
+| :--- | :--- |
+| **Low-Level & Graphics** | C23, C++20, Memory Allocators, POSIX APIs, Engine Architecture |
+| **Languages & Runtimes** | C, C++, Go, TypeScript, Node.js |
+| **Environment & Tooling** | Linux, Neovim, CMake, Make, Git, GDB, LLDB |
+| **Data & Infrastructure** | PostgreSQL, Prisma ORM, Docker |
+
+---
+
+### $ work --current
+
+* **Game Engine Architecture** — Implementing core engine subsystems: custom memory allocators, entity component structures, math routines, and rendering abstractions.
+* **Systems Programming** — Exploring low-level OS primitives, multithreading, and cache-conscious data layouts in C and C++.
+* **Developer Tooling** — Crafting lightweight terminal utilities, automation scripts, and workflow optimizations.
+
+---
+
+### $ contact --direct
+
+```text
+email     :: themistrinel@gmail.com
+linkedin  :: linkedin.com/in/joaovitordinizmistrinel
+x/twitter :: @themistrinel
+youtube   :: @themistrinel
+```
+
+---
+
+<details>
+<summary>activity graph</summary>
+<br>
 
 <picture>
-  <source
-    media="(prefers-color-scheme: dark)"
-    srcset="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg"
-  />
-  <source
-    media="(prefers-color-scheme: light)"
-    srcset="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg"
-  />
-  <img
-    alt="github contribution grid snake animation"
-    src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg"
-  />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/themistrinel/themistrinel/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/themistrinel/themistrinel/output/github-contribution-grid-snake.svg" />
+  <img alt="github contribution grid snake" src="https://raw.githubusercontent.com/themistrinel/themistrinel/output/github-contribution-grid-snake.svg" />
 </picture>
 
-
-<div align="center">
-  <a href="https://www.youtube.com/@themistrinel" target="_blank"><img src="https://img.shields.io/static/v1?message=Youtube&logo=youtube&label=&color=FF0000&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="youtube logo" /></a>
-  <a href="https://www.instagram.com/themistrinel/" target="_blank"><img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="instagram logo" /></a>
-  <a href="https://x.com/themistrinel" target="_blank"><img src="https://img.shields.io/static/v1?message=%20&logo=x&label=&color=000000&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="x logo" /></a>
-  <a href="mailto:themistrinel@gmail.com"><img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="gmail logo" /></a>
-  <a href="https://www.linkedin.com/in/joaovitordinizmistrinel" target="_blank"><img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linkedin logo" /></a>
-</div>
-
-
-### About Me
-
-I am a Full Stack Developer currently focused on **Low Level development** and **Game Engines**. I am also a student at Driven Education, where I work with technologies like Node.js, TypeScript, and Prisma ORM. I'm passionate about solving complex problems and building high-performance solutions.
+</details>
