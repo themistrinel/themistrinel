@@ -5,8 +5,8 @@
 <img src="./assets/sec_projects.svg" width="100%" alt="projects" />
 
 <p align="center">
-  <a href="https://github.com/themistrinel?tab=repositories"><img src="./assets/proj_core.svg" width="48%" alt="themistrinel_core" /></a>&nbsp;&nbsp;
-  <a href="https://github.com/themistrinel?tab=repositories"><img src="./assets/proj_engine.svg" width="48%" alt="engine_runtime" /></a>
+  <a href="https://github.com/themistrinel/desktop_video_macos"><img src="./assets/proj_core.svg" width="48%" alt="desktop_video_macos" /></a>&nbsp;&nbsp;
+  <a href="https://github.com/themistrinel/omnicmd"><img src="./assets/proj_engine.svg" width="48%" alt="omnicmd" /></a>
 </p>
 
 <img src="./assets/sec_connect.svg" width="100%" alt="connect" />

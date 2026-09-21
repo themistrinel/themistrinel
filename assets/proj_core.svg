@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 450 65" width="100%" height="100%">
   <defs>
     <style>
-      .mono { cursor: pointer;  font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; }
-      .proj-title { font-size: 15px; font-weight: 600; fill: #58a6ff; }
-      .proj-desc { font-size: 13px; fill: #8b949e; }
+      .mono { cursor: pointer; font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; }
+      .proj-title { font-size: 14.5px; font-weight: 600; fill: #58a6ff; }
+      .proj-desc { font-size: 12.5px; fill: #8b949e; }
       .folder-stroke { stroke: #58a6ff; stroke-width: 1.5; }
       .divider { stroke: #21262d; stroke-width: 1; }
       @media (prefers-color-scheme: light) {
@@ -14,12 +14,13 @@
       }
     </style>
   </defs>
-  <a href="https://github.com/themistrinel" target="_blank"><rect id="hitbox" width="100%" height="100%" fill="transparent" pointer-events="all" style="cursor: pointer;" />
-  <g class="mono" transform="translate(10, 5)">
-    <path d="M0 2a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2z" fill="none" class="folder-stroke" />
-    <text x="26" y="11" class="proj-title">themistrinel_core</text>
-    <text x="26" y="32" class="proj-desc">Systems and software experiments.</text>
-    <line x1="0" y1="46" x2="420" y2="46" class="divider" />
-  </g>
+  <a href="https://github.com/themistrinel/desktop_video_macos" target="_blank">
+    <rect id="hitbox" width="100%" height="100%" fill="transparent" pointer-events="all" style="cursor: pointer;" />
+    <g class="mono" transform="translate(10, 5)">
+      <path d="M0 2a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2z" fill="none" class="folder-stroke" />
+      <text x="26" y="11" class="proj-title">desktop_video_macos</text>
+      <text x="26" y="32" class="proj-desc">Native macOS live wallpaper app with menubar controls.</text>
+      <line x1="0" y1="46" x2="420" y2="46" class="divider" />
+    </g>
   </a>
 </svg>
