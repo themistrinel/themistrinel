@@ -1,0 +1,162 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 410" width="100%" height="100%">
+  <defs>
+    <style>
+      .mono {
+        font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+        white-space: pre;
+      }
+      .term-dim { fill: #484f58; }
+      .box-rect { fill: #161b22; fill-opacity: 0.65; stroke: #30363d; stroke-width: 1; }
+      .eye-frame { fill: #8b949e; font-size: 12px; }
+      .eye-lid { fill: #c9d1d9; font-size: 12px; }
+      .pupil-iris { fill: #c9d1d9; font-size: 12px; }
+      .pupil-core { fill: #58a6ff; font-weight: bold; }
+      .sub-caption { font-size: 11px; fill: #8b949e; letter-spacing: 1.5px; }
+      .status-dot { fill: #58a6ff; }
+      .link-hint { font-size: 11px; fill: #58a6ff; letter-spacing: 1px; font-weight: 600; }
+
+      @keyframes blinkLidTop {
+        0%, 78%, 86%, 100% { transform: translateY(0); opacity: 0; }
+        81% { transform: translateY(14px); opacity: 1; }
+        83% { transform: translateY(14px); opacity: 1; }
+      }
+      @keyframes blinkLidBottom {
+        0%, 78%, 86%, 100% { transform: translateY(0); opacity: 0; }
+        81% { transform: translateY(-14px); opacity: 1; }
+        83% { transform: translateY(-14px); opacity: 1; }
+      }
+      @keyframes organicEyeMotion {
+        0%, 100% { transform: translate(0, 0); }
+        14% { transform: translate(28px, -4px); }
+        24% { transform: translate(32px, -3px); }
+        36% { transform: translate(0, 0); }
+        50% { transform: translate(-32px, 5px); }
+        60% { transform: translate(-28px, 6px); }
+        72% { transform: translate(0, 0); }
+        84% { transform: translate(12px, -3px); }
+        92% { transform: translate(0, 0); }
+      }
+      @keyframes subtleBreathing {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-2px); }
+      }
+      @keyframes pulseDot {
+        0%, 100% { opacity: 0.35; }
+        50% { opacity: 1; }
+      }
+
+      .animated-pupil {
+        animation: organicEyeMotion 13s cubic-bezier(0.45, 0, 0.25, 1) infinite;
+      }
+      .animated-breathing {
+        animation: subtleBreathing 6.5s ease-in-out infinite;
+      }
+      .animated-lid-top {
+        animation: blinkLidTop 6.8s ease-in-out infinite;
+      }
+      .animated-lid-bottom {
+        animation: blinkLidBottom 6.8s ease-in-out infinite;
+      }
+      .pulse-indicator {
+        animation: pulseDot 2.6s ease-in-out infinite;
+      }
+
+      @media (prefers-color-scheme: light) {
+        .term-dim { fill: #8c959f; }
+        .box-rect { fill: #f6f8fa; fill-opacity: 0.85; stroke: #d0d7de; }
+        .eye-frame { fill: #57606a; }
+        .eye-lid { fill: #1f2328; }
+        .pupil-iris { fill: #24292f; }
+        .pupil-core { fill: #0969da; }
+        .sub-caption { fill: #57606a; }
+        .status-dot { fill: #0969da; }
+        .link-hint { fill: #0969da; }
+      }
+
+      @media (prefers-reduced-motion) {
+        .animated-pupil, .animated-breathing, .animated-lid-top, .animated-lid-bottom, .pulse-indicator {
+          animation: none !important;
+        }
+      }
+    </style>
+
+    <clipPath id="eyeScleraClip">
+      <ellipse cx="480" cy="208" rx="160" ry="44" />
+    </clipPath>
+  </defs>
+
+  <!-- Container Box -->
+  <rect x="35" y="10" width="890" height="390" rx="6" class="box-rect" />
+
+  <!-- Sub Header inside box -->
+  <g class="mono">
+    <circle cx="58" cy="35" r="3.5" class="status-dot pulse-indicator" />
+    <text x="70" y="39" class="sub-caption">SENTINEL // ASCII OCULAR ENTITY</text>
+    <text x="890" y="39" class="link-hint" text-anchor="end">[ LIVE TRACKING DEMO ↗ ]</text>
+  </g>
+
+  <!-- Eye Creature Group -->
+  <g class="mono animated-breathing" xml:space="preserve">
+    <!-- Static Upper Orbit -->
+    <g class="eye-frame">
+      <text x="195" y="68" class="eye-frame">                     .-----------------------------------.                     </text>
+      <text x="195" y="82" class="eye-frame">                .--''                                     ''--.                </text>
+      <text x="195" y="96" class="eye-frame">            .-''        .-----------------------------.        ''-.            </text>
+      <text x="195" y="110" class="eye-frame">         .-'         .-'                               '-.         '-.         </text>
+      <text x="195" y="124" class="eye-frame">       .'          .'                                     '.          '.       </text>
+      <text x="195" y="138" class="eye-frame">     .'           /                                         \           '.     </text>
+      <text x="195" y="152" class="eye-frame">    /            /                                           \            \    </text>
+      <text x="195" y="166" class="eye-frame">   ;            ;                                             ;            ;   </text>
+    </g>
+
+    <!-- Sclera Lateral Boundaries -->
+    <g class="eye-frame">
+      <text x="195" y="180" class="eye-frame">  |            |                                               |            |  </text>
+      <text x="195" y="194" class="eye-frame">  |            |                                               |            |  </text>
+      <text x="195" y="208" class="eye-frame">  |            |                                               |            |  </text>
+      <text x="195" y="222" class="eye-frame">  |            |                                               |            |  </text>
+      <text x="195" y="236" class="eye-frame">  |            |                                               |            |  </text>
+    </g>
+
+    <!-- Animated Pupil/Iris Traveling in Sclera -->
+    <g clip-path="url(#eyeScleraClip)">
+      <g class="animated-pupil">
+        <text x="195" y="166" class="pupil-iris">                                .-------.                                      </text>
+      <text x="195" y="180" class="pupil-iris">                              .' ░▒▓▓▒░ '.                                     </text>
+      <text x="195" y="194" class="pupil-iris">                             / ░▓█████▓░ \                                     </text>
+      <text x="195" y="208" class="pupil-iris">                            | ▒▓██ <tspan class="pupil-core">●</tspan> ██▓▒ |                                    </text>
+      <text x="195" y="222" class="pupil-iris">                             \ ░▓█████▓░ /                                     </text>
+      <text x="195" y="236" class="pupil-iris">                              '. ░▒▓▓▒░ .'                                     </text>
+      <text x="195" y="250" class="pupil-iris">                                '-------'                                      </text>
+      </g>
+    </g>
+
+    <!-- Animated Eyelids (Blink) -->
+    <g class="animated-lid-top eye-lid">
+      <text x="195" y="194" class="eye-lid">  |------------|-----------------------------------------------|------------|  </text>
+      <text x="195" y="208" class="eye-lid">   \          /                 .-------------.                 \          /   </text>
+    </g>
+
+    <g class="animated-lid-bottom eye-lid">
+      <text x="195" y="208" class="eye-lid">   /          \                 '-------------'                 /          \   </text>
+      <text x="195" y="222" class="eye-lid">  |------------|-----------------------------------------------|------------|  </text>
+    </g>
+
+    <!-- Static Lower Orbit -->
+    <g class="eye-frame">
+      <text x="195" y="250" class="eye-frame">   ;            ;                                             ;            ;   </text>
+      <text x="195" y="264" class="eye-frame">    \            \                                           /            /    </text>
+      <text x="195" y="278" class="eye-frame">     '.           \                                         /           .'     </text>
+      <text x="195" y="292" class="eye-frame">       '.          '.                                     .'          .'       </text>
+      <text x="195" y="306" class="eye-frame">         '-.         '-.                               .-'         .-'         </text>
+      <text x="195" y="320" class="eye-frame">            '-..        '-----------------------------'        ..-'            </text>
+      <text x="195" y="334" class="eye-frame">                '--..                                     ..--'                </text>
+      <text x="195" y="348" class="eye-frame">                     '-----------------------------------'                     </text>
+    </g>
+
+    <!-- Telemetry Status Line -->
+    <g class="eye-frame" text-anchor="middle">
+      <text x="480" y="380"><tspan class="term-dim">--·[</tspan> <tspan class="pupil-core">✦</tspan> <tspan class="sub-caption">OCULAR CONDUIT :: RETINA CALIBRATED :: LIVE PRESENCE</tspan> <tspan class="pupil-core">✦</tspan> <tspan class="term-dim">]·--</tspan></text>
+    </g>
+  </g>
+</svg>

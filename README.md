@@ -9,6 +9,12 @@
   <a href="https://github.com/themistrinel/omnicmd"><img src="./assets/omnicmd.svg" width="48.5%" alt="omnicmd" /></a>
 </p>
 
+<img src="./assets/sec_observer.svg" width="100%" alt="observer" />
+
+<p align="center">
+  <a href="./eye.html"><img src="./assets/eye.svg" width="100%" alt="ascii observer" /></a>
+</p>
+
 <img src="./assets/sec_connect.svg" width="100%" alt="connect" />
 
 <p>
