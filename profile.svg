@@ -157,16 +157,16 @@
     <!-- Project 1 -->
     <g transform="translate(35, 672)">
       <path d="M0 2a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2z" fill="none" class="folder-stroke" />
-      <text x="26" y="11" class="proj-title">themistrinel_core</text>
-      <text x="26" y="32" class="proj-desc">Systems and software experiments.</text>
+      <text x="26" y="11" class="proj-title">desktop_video_macos</text>
+      <text x="26" y="32" class="proj-desc">Native macOS live wallpaper app with menubar controls.</text>
       <line x1="0" y1="46" x2="410" y2="46" class="divider" />
     </g>
 
     <!-- Project 2 -->
     <g transform="translate(490, 672)">
       <path d="M0 2a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2z" fill="none" class="folder-stroke" />
-      <text x="26" y="11" class="proj-title">engine_runtime</text>
-      <text x="26" y="32" class="proj-desc">Low-level architecture, ECS, memory and rendering.</text>
+      <text x="26" y="11" class="proj-title">omnicmd</text>
+      <text x="26" y="32" class="proj-desc">Desktop command palette and productivity accelerator.</text>
       <line x1="0" y1="46" x2="435" y2="46" class="divider" />
     </g>
   </g>

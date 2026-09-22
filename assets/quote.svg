@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 130" width="100%" height="100%">
+  <defs>
+    <style>
+      .mono { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; }
+      .quote-text { font-size: 14px; fill: #8b949e; }
+      .vert-div { stroke: #21262d; stroke-width: 1; }
+      .cursor-prompt { font-size: 14px; font-weight: 600; fill: #58a6ff; }
+
+      @keyframes blinkCursor {
+        0%, 49% { opacity: 1; }
+        50%, 100% { opacity: 0; }
+      }
+      .cursor-blink { animation: blinkCursor 1.05s infinite; }
+
+      @media (prefers-color-scheme: light) {
+        .quote-text { fill: #57606a; }
+        .vert-div { stroke: #d0d7de; }
+        .cursor-prompt { fill: #0969da; }
+      }
+    </style>
+  </defs>
+  <line x1="20" y1="10" x2="20" y2="120" class="vert-div" />
+  <g class="mono" transform="translate(50, 15)">
+    <text x="0" y="25" class="quote-text">“ Better tools,</text>
+    <text x="20" y="48" class="quote-text">better systems. ”</text>
+    <text x="0" y="88" class="cursor-prompt">&gt;  <tspan class="cursor-blink">_</tspan></text>
+  </g>
+</svg>
